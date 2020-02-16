@@ -55,7 +55,6 @@ p {
 .top-menu li a {
     text-decoration: none;
     color: #626262;
-    font-family: Playfair;
     margin-left: auto;
     margin-right: auto;
     }
@@ -73,7 +72,9 @@ p {
     width: 164px;
     height: 60px; 
     border: 1px solid #626262;  
-    font-size: 14px; 
-    margin-top: 2px ;
+    font-size: 23px; 
+    margin-top: 2px;
+    font-family: Ubuntu;
+    color: #6c6c6c;
  }
     
