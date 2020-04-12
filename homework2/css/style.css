@@ -1,3 +1,11 @@
+img {
+    width: 420px;
+    height: 280px;
+}
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+}
 ul li {
     color: #777777;
     text-transform: uppercase;
@@ -13,13 +21,48 @@ ul li {
 h2 {
     color: #626262;
 }
-
+.wraper {
+    margin-bottom: 21px;
+    
+}
  button {
     width: 164px;
     height: 60px; 
     border: 1px solid #626262;  
     font-size: 23px; 
-    margin-top: 2px;
+    margin: 0 auto;
     font-family: Ubuntu;
     color: #6c6c6c;
+    margin: 0 auto;
  }
+.block {
+    display: inline-block;
+    margin: 0 auto;
+    width: 420px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: solid yellow 1px;
+}    
+.block {
+    display: inline-block;
+    width: calc(50% - 2px);
+    padding: 0 10px;
+    background-color: #fff;
+    border: solid red 1px;
+    box-sizing: border-box;
+    margin-bottom: 125px;    
+}
+.block:last-child {    margin-right: 0;}
+.navigation li {
+    /* теперь сделаем пункты меню в ряд */
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 75px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+}
