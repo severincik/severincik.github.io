@@ -9,7 +9,8 @@ body, p, button {
 
 /* Задаем ширину врапперу и выравниваем его по центру страницы */
 .wrapper {
-    width: 900px;
+    width: 901px;
+    height: 2050px;
     margin: 0 auto;
 }
 
@@ -48,8 +49,9 @@ body, p, button {
     display: inline-block;
     width: 420px;
     font-size: 14px;
-    margin-right: 60px;
-    margin-bottom: 130px;
+    margin-left: 0 auto;
+    margin-right: 20px;
+    margin-bottom: 120px;
 }
 
 .post:nth-child(even) {
@@ -61,7 +63,7 @@ body, p, button {
 }
 .post img {
     display: block;
-    width: 100%;
+    width: 420px;
     height: auto;
 }
 .post .category {
@@ -72,7 +74,7 @@ body, p, button {
     margin-bottom: 30px;
 }
 
-.post h3 {
+.post h2 {
     font-size: 30px;
     margin-bottom: 35px;
 }
@@ -88,9 +90,21 @@ body, p, button {
 }
 .posts-wrap {
     display: inline-block;
-    width: calc(50% - 2px);
-    padding: 0 10px;
+    width: 420px;
+    /* padding: 0 10px; */
     background-color: #fff;
     box-sizing: border-box;
-    margin-bottom: 12px;    
+    margin-bottom: 12px;
+    /* border: 1px solid red; */
+}
+.text {
+    color: #03a9f4;
+}
+
+.right-side-post {
+    margin-left: 57px;
+}
+
+.bottom-post {
+    margin-bottom: 25px !important;
 }
